@@ -4,7 +4,7 @@ session_start();
 
 
 include("connectDB.php");
-$con=connectToDB("localhost","root","","trivias");
+$con=connectToDB("localhost","user","pass","trivias"); //change user and pass to your database user and password
 
 $username=$_SESSION["name"];
 
